@@ -67,7 +67,9 @@ body {
     transform-origin: center left;
 }
 
-
+.actived{
+    color: rgb(123, 170, 248);
+}
 
 .navbar-toggler span:nth-child(1) {
     transform: translate(0%, 0%) rotate(0deg);
@@ -213,16 +215,19 @@ body {
 
 #home {
     margin-top: 10px;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 #skills{
-    min-height: 90vh;
+    min-height: 100vh;
 }
 #project-portfolio{
-    min-height: 90vh;
+    min-height: 100vh;
 }
 #experience{
-    min-height: 90vh;
+    min-height: 100vh;
+}
+#contact{
+    min-height: 100vh;
 }
 @media (max-width:641px) {
 
