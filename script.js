@@ -48,6 +48,11 @@ $('#email').on('click', function () {
     window.location = sendMail;
 })
 
+$('#to-github').on('click', function () {
+    const toGithub = 'https://github.com/alvanfath/portfolio-v2';
+    window.open(toGithub, '_blank');
+})
+
 // Get all sections that have an ID defined
 const sections = document.querySelectorAll("section[id]");
 
