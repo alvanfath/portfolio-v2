@@ -8,9 +8,11 @@ body {
     padding: 0;
     background-color: #0A192F;
 }
-#content-wrapper{
+
+#content-wrapper {
     visibility: hidden;
 }
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.475);
     position: fixed;
@@ -19,6 +21,7 @@ body {
     display: block;
     transition: top 0.3s;
     z-index: 1;
+    margin-bottom: 20px;
 }
 
 /* width */
@@ -67,7 +70,7 @@ body {
     transform-origin: center left;
 }
 
-.actived{
+.actived {
     color: rgb(123, 170, 248);
 }
 
@@ -117,17 +120,17 @@ body {
 
 .main-content {
     margin: 10px;
-    margin-top: 60px;
     padding: 3%;
 }
 
-.profile-first-text{
+.profile-first-text {
     color: rgb(127, 255, 212);
 }
 
-.profile-moto-text{
+.profile-moto-text {
     opacity: 0.5;
 }
+
 .text-subtitle {
     font-weight: 100;
     font-size: medium;
@@ -151,84 +154,95 @@ body {
     font-size: 15px;
 }
 
-.progress{
+.progress {
     height: 10px;
 }
 
-.bi-code-slash{
+.bi-code-slash {
     color: rgb(127, 255, 212);
 }
-.go-to-web{
+
+.go-to-web {
     transition: 0.5s;
 }
-.go-to-web:hover{
+
+.go-to-web:hover {
     color: rgb(127, 255, 212);
 }
-.port-title{
+
+.port-title {
     font-weight: 600;
     transition: 0.5s;
 }
 
-.port-card{
+.port-card {
     transition: 0.5s;
     cursor: pointer;
     padding-bottom: 15px;
     min-height: 350px;
-    max-height:450px;
+    max-height: 450px;
 }
 
-.port-card:hover{
+.port-card:hover {
     margin-top: -5px;
 }
 
-.port-card:hover .port-title{
+.port-card:hover .port-title {
     color: rgb(127, 255, 212);
 }
 
-.port-footer{
+.port-footer {
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    
+
 }
-.port-footer small{
+
+.port-footer small {
     color: rgb(132, 135, 133);
 }
 
-.btn-outline-success{
+.btn-outline-success {
     color: rgb(132, 135, 133);
 }
-.btn-outline-success:hover{
-    color: aquamarine;
-}
-.text-ganteng{
+
+.btn-outline-success:hover {
     color: aquamarine;
 }
 
-.exp-card{
+.text-ganteng {
+    color: aquamarine;
+}
+
+.exp-card {
     transition: 0.5s;
 }
 
-.modal-dialog{
+.modal-dialog {
     background-color: #0A192F !important;
 }
 
 #home {
-    margin-top: 10px;
+    padding-top: 8%;
     min-height: 100vh;
 }
-#skills{
+
+#skills {
     min-height: 100vh;
 }
-#project-portfolio{
+
+#project-portfolio {
     min-height: 100vh;
 }
-#experience{
+
+#experience {
     min-height: 100vh;
 }
-#contact{
+
+#contact {
     min-height: 100vh;
 }
+
 @media (max-width:641px) {
 
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -252,13 +266,14 @@ body {
         margin: 0;
         padding: 0;
     }
+
+    #home {
+        padding-top: 20%;
+    }
 }
 
 @media (max-width:320px) {
 
     /* smartphones, iPhone, portrait 480x320 phones */
-    .main-content {
-        margin: 0;
-        padding: 0;
-    }
+    
 }
