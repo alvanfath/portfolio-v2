@@ -1,3 +1,4 @@
+AOS.init();
 $(window).on("load", function () {
     document.getElementById("content-wrapper").style.visibility = "hidden";
     setTimeout(function () {
